@@ -1,0 +1,102 @@
+/* 1. RESET: Limpa os padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. BODY: Fundo branco e centralização */
+body {
+    background-color: #ffffff; /* Fundo Branco */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* 3. TÍTULO: Vermelho em destaque */
+h1 {
+    color: #ff0000; /* Vermelho */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* 4. FORMULÁRIO: Caixa branca com bordas vermelhas */
+form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+    border: 2px solid #ff0000; /* Borda Vermelha */
+    border-radius: 10px;
+}
+
+/* 5. LABELS E TEXTOS */
+label, p {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+p {
+    margin-top: 15px;
+}
+
+/* 6. INPUTS: Simples com borda vermelha ao focar */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff0000; /* Muda para vermelho ao clicar */
+}
+
+/* 7. RADIOS: Bolinhas vermelhas */
+input[type="radio"] {
+    accent-color: #ff0000;
+    margin-right: 5px;
+}
+
+/* 8. BOTÃO DE ENVIAR: Vermelho com texto branco */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #cc0000; /* Vermelho mais escuro no hover */
+}
+
+/* 9. LINHA DIVISÓRIA */
+hr {
+    border: 0;
+    border-top: 1px solid #ff0000;
+    margin: 15px 0;
+}
+
+/* 10. RODAPÉ */
+footer {
+    margin-top: 20px;
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: bold;
+}
