@@ -8,7 +8,7 @@
 
 /* 2. BODY: Fundo branco e centralização */
 body {
-    background-color: #ffffff; /* Fundo Branco */
+    background-color: #450303; /* Fundo Vermelho*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 
 /* 3. TÍTULO: Vermelho em destaque */
 h1 {
-    color: #ff0000; /* Vermelho */
+    color: #f4f3f3; /* Branco */
     margin-bottom: 20px;
     text-align: center;
 }
@@ -36,7 +36,7 @@ form {
 /* 5. LABELS E TEXTOS */
 label, p {
     font-weight: bold;
-    color: #333;
+    color: #f4f1f1;
     margin-bottom: 5px;
     display: block;
 }
@@ -71,7 +71,7 @@ input[type="radio"] {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #ff0000;
+    background-color: #df0a0a;
     color: #ffffff;
     border: none;
     border-radius: 5px;
